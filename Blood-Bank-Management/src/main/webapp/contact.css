@@ -1,0 +1,14 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.Contact
+{
+	color: yellow;
+	font-size: 25px;
+	font-family: Copperplate, Papyrus, fantasy;
+	padding-top: auto;
+	float: left;
+	cursor: default;	
+}

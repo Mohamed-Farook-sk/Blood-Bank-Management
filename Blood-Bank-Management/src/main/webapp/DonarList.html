@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List of Donars</title>
+    <link rel="stylesheet" href="DonarList.css">
+</head>
+<body class="main">
+    <div class="container">
+        <h1>List of Donars</h1>
+            <div class="filter-container">
+        		<label for="bloodGroupFilter">Filter by Blood Group:</label>
+        		<select id="bloodGroupFilter">
+            		<option value="all">All</option>
+            		<option value="A+">A+</option>
+            		<option value="A-">A-</option>
+            		<option value="B+">B+</option>
+            		<option value="B-">B-</option>
+            		<option value="AB+">AB+</option>
+            		<option value="AB-">AB-</option>
+            		<option value="O+">O+</option>
+            		<option value="O-">O-</option>
+        		</select>
+    		</div>
+    		<a href="MainModule.html"><button class=button>Return to Home</button></a>      
+        <table id="userTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Blood Group</th>
+                    <th>City</th>
+                    <th>Contact</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+
+    <script src="DonarList.js"></script>
+</body>
+</html>

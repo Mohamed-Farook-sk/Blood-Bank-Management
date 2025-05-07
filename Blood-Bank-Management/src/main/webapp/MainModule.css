@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.main{
+	background-image: url(Cover.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+}
+.main h3{
+	font-size: 70px;
+	position: fixed;
+	top: 225px;
+	right: 150px;
+	cursor: default;
+	font-family:"Fira Sans", cursive;
+	color: #8b0000;
+}
+.main h4{
+	position: fixed;
+	bottom: 250px;
+	right: 455px;
+}
+.main b
+{
+	position: fixed;
+	top: 335px;
+	right: 300px;
+	font-size: 30px;
+}
+.main p{
+	position: fixed;
+	top: 600px;
+	right: 500px;
+}
+.button1
+{
+  	font-size: 16px;
+	position: fixed;
+	top: 425px;
+	right: 475px;
+	text-align: center;
+ 	padding: 16px 32px;
+	cursor: pointer;
+	background-color: #8b0000;
+	color: white;
+	border: 2px solid #8b0000;
+	text-decoration: none;
+	transition-duration: 0.4s;	
+}
+.button1:hover
+{
+	background-color: white;
+	color: black;
+}
+.button
+{
+	background-color: none;
+  	border: none;
+  	color: black;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	cursor: pointer;
+  	float: right;
+  	transition-duration: 0.4s;
+  	opacity: 0.6;
+}
+.button:hover
+{
+	background-color:#8b0000;
+	color: white;
+	opacity: 1;
+}
+.button2
+{
+	position: fixed;
+	top: 602px;
+	left: 1028px;
+	cursor: pointer;
+	background-color: none;
+	border: none;;
+	transition-duration: 0.4s;
+}
+.button2:hover
+{
+	background-color: #8b0000;
+	color: white;
+}
+
+
+
+
+

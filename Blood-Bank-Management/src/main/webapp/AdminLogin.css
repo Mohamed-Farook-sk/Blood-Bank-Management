@@ -1,0 +1,36 @@
+form label {
+	display: block;
+	margin: 10px 0 5px;
+}
+form input {
+	width: 95%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+form button {
+	width: 100%;
+	padding: 10px;
+	background: #8b0000;
+	border: none;
+	color: white;
+	font-size: 16px;
+}
+form button:hover {
+	background: black;
+}
+.container {
+	width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 16px 16px rgba(0.1, 0.1, 0.1, 0.1);
+}
+.main {
+	background-image: url(Cover.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	width: 100%; 
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit a Query</title>
+    <link rel="stylesheet" href="Query.css">
+</head>
+<body class="main">
+    <div class="container">
+        <h1>Submit Your Query</h1>
+        <form action="Query" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="query">Query (100 words max):</label>
+            <textarea id="query" name="query" maxlength="600" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
